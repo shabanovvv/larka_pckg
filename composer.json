@@ -1,0 +1,26 @@
+{
+    "name": "salavey/ai_code_reviewer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Salavey\\AiCodeReviewer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vyacheslav Shabanov",
+            "email": "saveliy@mail.ru"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^12.0",
+        "illuminate/http": "^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Salavey\\AiCodeReviewer\\ServiceProvider"
+            ]
+        }
+    }
+}
